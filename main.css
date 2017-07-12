@@ -1,0 +1,199 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  height: 500px;
+  background-color: #e7e7e7;
+  border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+
+ /*header {
+  background-color: #4267b2;
+  height: 30px;
+  margin-bottom: 10px;
+  }*/
+
+
+/*footer {
+  background-color: rgba(0,0,0,0.87);
+  height: 30px;
+  margin-top: 10px;
+}*/
+
+/*#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}*/
+
+#main,
+#menu,
+#sidebar {
+  height: 500px;
+ 
+  background-color: #e9ebee;
+  }
+
+#header
+{  
+  background-color: #4267b2;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.icon {
+  color:black ! important;
+}
+#header ul .glyphicon {
+    font-size: 20px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.image-post {
+    margin-bottom: 15px;
+    }
+
+#main {
+    overflow: auto;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+.hameet{
+  margin-top: 12px;
+}
+
+.comment {
+    margin: 0;
+}
+
+.badges{
+  color: black;
+  background: red;
+  font-size: 10px;
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  padding: 3px 6px;
+  opacity: 0.95;
+  border-radius: 50%;
+
+}
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  font-size: 15px;
+  margin-top: 42px;
+}
+
+button{
+  margin-top: 10px;
+   opacity: 0.5;
+    }
+
+.color{
+  color: #337ab7;
+}
+
+.sear-icon {
+  margin-right:0px;
+}
+
+.active {
+  opacity: 0.9;
+}
+
+.fb {
+  display: inline;
+}
+
+.search {
+  position: relative;
+}
+
+.search button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sidebar {
+  position: relative;
+  min-height: 568px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+#sidebar footer {
+  position: absolute;
+  bottom: 0;
+}
+
+#main {
+  min-height: 568px;
+}
+
+body {
+  background: #e9ebee;
+}
+.navbar-brand {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.navbar-left {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.caret:hover {
+  color: #fff;
+  background-color:  #4267b2
+}
+.tab-content {
+  padding-top: 40px;
+}
